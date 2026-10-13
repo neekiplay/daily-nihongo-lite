@@ -1,0 +1,5 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+.app-container { max-width: 600px; margin: 0 auto; padding: 20px; min-height: 100vh; }
+ruby { tracking-wide; line-height: 1.6; }
+rt { font-size: 10px; color: #6366f1; font-weight: 600; padding-bottom: 1px; user-select: none; text-align: center; }
