@@ -16,7 +16,7 @@ export default function App() {
   const [playingId, setPlayingId] = useState(null);
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch('./data.json')
       .then(res => res.json())
       .then(json => {
         setData(json);
